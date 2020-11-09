@@ -20,9 +20,10 @@ sessionsRoute.post('/', async (request, response) => {
       email: user.email,
       created_at: user.created_at,
       updated_at: user.updated_at,
+      token,
     };
 
-    return response.json({ userWithoutPassword, token });
+    return response.json(userWithoutPassword);
   } catch (err) {
     return response.status(400).json({ error: err.message });
   }
