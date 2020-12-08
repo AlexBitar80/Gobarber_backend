@@ -22,7 +22,7 @@ sessionsRoute.post('/', async (request, response) => {
     token,
   };
 
-  return response.json(userWithoutPassword);
+  return response.json({ user: userWithoutPassword, token });
 });
 
 export default sessionsRoute;
