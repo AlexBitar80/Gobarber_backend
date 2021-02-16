@@ -52,9 +52,6 @@ O projeto está utilizando as seguintes tecnologias:
 Para clonar e rodar esse projeto você vai precisar do [Node](https://nodejs.org/en/) do [Yarn](https://yarnpkg.com/) ou do [Npm](https://www.npmjs.com/get-npm) e do [Git](https://git-scm.com/) instalado na rua máquina.
 
 ```bash
-# Faça o clone deste repositório para qualquer pasta de sua preferencia
-$ git clone https://github.com/AlexBitar80/Gobarber_backend.git Gobarber_backend
-
 # Iniciar instância do postgresql
 $ docker run --name gostack-pg -e POSTGRES_PASSWORD=SuaSenha -p 5432:5432 -d postgres
 
@@ -63,6 +60,9 @@ $ docker run --name mongodb -p 27017:27017 -d -t mongo
 
 # Iniciar instância do redis
 $ docker run --name redis -p 6379:6379 -d -t redis:alpine
+
+# Faça o clone deste repositório para qualquer pasta de sua preferencia
+$ git clone https://github.com/AlexBitar80/Gobarber_backend.git Gobarber_backend
 
 # Vá até essa pasta
 $ cd Gobarber_backend
