@@ -49,7 +49,7 @@ O projeto está utilizando as seguintes tecnologias:
   <strong>Obs: Para iniciar as instâncias dos banco de dados eu estou usando o <a href="https://docs.docker.com/">Docker</a>, Com ele instalado siga os comandos abaixo para iniciar as instância do banco de dados e conseguir iniciar o projeto sem problemas. </strong>
 </h4>
 
-Para clonar e rodar esse projeto você vai precisar do [Node](https://nodejs.org/en/) do [Yarn](https://yarnpkg.com/) ou do [Npm](https://www.npmjs.com/get-npm) e do [Git](https://git-scm.com/) instalado na rua máquina.
+Para clonar e rodar esse projeto você vai precisar do [Node](https://nodejs.org/en/) do [Yarn](https://yarnpkg.com/) ou do [Npm](https://www.npmjs.com/get-npm) e do [Git](https://git-scm.com/) instalado na sua máquina.
 
 ```bash
 # Iniciar instância do postgresql
